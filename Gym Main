@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beginner Gym Plan</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; margin: 0; background: #0f172a; color: #e5e7eb; }
+    header { padding: 16px; background: #020617; position: sticky; top: 0; }
+    h1 { font-size: 20px; margin: 0; }
+    .meta { font-size: 13px; color: #94a3b8; }
+    .container { padding: 12px; }
+    .day { background: #020617; border-radius: 14px; padding: 14px; margin-bottom: 14px; box-shadow: 0 10px 20px rgba(0,0,0,.25); }
+    .day h2 { font-size: 18px; margin: 0 0 8px 0; }
+    .ex { margin-bottom: 10px; }
+    .ex b { display: block; }
+    .ex a { color: #38bdf8; text-decoration: none; font-size: 14px; }
+    .tag { font-size: 12px; color: #cbd5f5; }
+    footer { padding: 12px; text-align: center; font-size: 12px; color: #94a3b8; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Beginner Gym Plan (4 Days)</h1>
+    <div class="meta">Rest 60–90s • Cardio optional after weights</div>
+  </header>
+
+  <div class="container">
+
+    <div class="day">
+      <h2>Day 1 – Chest + Triceps</h2>
+      <div class="ex"><b>Bench Press</b><span class="tag">4x8–10 • Inhale down, exhale up</span><br><a href="https://www.youtube.com/watch?v=rT7DgCr-3pg" target="_blank">Watch</a></div>
+      <div class="ex"><b>Incline Dumbbell Press</b><span class="tag">3x10–12</span><br><a href="https://www.youtube.com/watch?v=8iPEnn-ltC8" target="_blank">Watch</a></div>
+      <div class="ex"><b>Cable Fly / Pec Deck</b><span class="tag">3x12–15</span><br><a href="https://www.youtube.com/watch?v=taI4XduLpTk" target="_blank">Watch</a></div>
+      <div class="ex"><b>Rope Pushdown</b><span class="tag">3x10–12</span><br><a href="https://www.youtube.com/watch?v=2-LAMcpzODU" target="_blank">Watch</a></div>
+      <div class="ex"><b>Overhead Extension</b><span class="tag">3x10–12</span><br><a href="https://www.youtube.com/watch?v=YbX7Wd8jQ-Q" target="_blank">Watch</a></div>
+    </div>
+
+    <div class="day">
+      <h2>Day 2 – Back + Biceps</h2>
+      <div class="ex"><b>Lat Pulldown</b><span class="tag">4x8–10</span><br><a href="https://www.youtube.com/watch?v=CAwf7n6Luuc" target="_blank">Watch</a></div>
+      <div class="ex"><b>Seated Cable Row</b><span class="tag">3x10–12</span><br><a href="https://www.youtube.com/watch?v=HJSVR_67OlM" target="_blank">Watch</a></div>
+      <div class="ex"><b>One-Arm DB Row</b><span class="tag">3x10/arm</span><br><a href="https://www.youtube.com/watch?v=pYcpY20QaE8" target="_blank">Watch</a></div>
+      <div class="ex"><b>EZ-Bar Curl</b><span class="tag">3x8–10</span><br><a href="https://www.youtube.com/watch?v=kwG2ipFRgfo" target="_blank">Watch</a></div>
+      <div class="ex"><b>Hammer Curl</b><span class="tag">3x10–12</span><br><a href="https://www.youtube.com/watch?v=zC3nLlEvin4" target="_blank">Watch</a></div>
+    </div>
+
+    <div class="day">
+      <h2>Day 3 – Legs + Core</h2>
+      <div class="ex"><b>Squat / Leg Press</b><span class="tag">4x8–10</span><br><a href="https://www.youtube.com/watch?v=ultWZbUMPL8" target="_blank">Squat</a> • <a href="https://www.youtube.com/watch?v=IZxyjW7MPJQ" target="_blank">Leg Press</a></div>
+      <div class="ex"><b>Romanian Deadlift</b><span class="tag">3x8–10</span><br><a href="https://www.youtube.com/watch?v=2SHsk9AzdjA" target="_blank">Watch</a></div>
+      <div class="ex"><b>Walking Lunges</b><span class="tag">3x10/leg</span><br><a href="https://www.youtube.com/watch?v=wrwwXE_x-pQ" target="_blank">Watch</a></div>
+      <div class="ex"><b>Standing Calf Raises</b><span class="tag">4x12–15</span><br><a href="https://www.youtube.com/watch?v=-M4-G8p8fmc" target="_blank">Watch</a></div>
+      <div class="ex"><b>Plank</b><span class="tag">3x30–45s</span><br><a href="https://www.youtube.com/watch?v=pSHjTRCQxIw" target="_blank">Watch</a></div>
+    </div>
+
+    <div class="day">
+      <h2>Day 4 – Shoulders + Arms</h2>
+      <div class="ex"><b>Shoulder Press</b><span class="tag">4x8–10</span><br><a href="https://www.youtube.com/watch?v=qEwKCR5JCog" target="_blank">Watch</a></div>
+      <div class="ex"><b>Lateral Raises</b><span class="tag">3x12–15</span><br><a href="https://www.youtube.com/watch?v=kDqklk1ZESo" target="_blank">Watch</a></div>
+      <div class="ex"><b>Rear Delt Fly</b><span class="tag">3x12–15</span><br><a href="https://www.youtube.com/watch?v=EA7u4Q_8HQ0" target="_blank">Watch</a></div>
+      <div class="ex"><b>Cable/Dumbbell Curl</b><span class="tag">3x10–12</span><br><a href="https://www.youtube.com/watch?v=AsAVbj7puKo" target="_blank">Watch</a></div>
+      <div class="ex"><b>Rope Pushdown</b><span class="tag">3x10–12</span><br><a href="https://www.youtube.com/watch?v=GCa5VMIw6R8" target="_blank">Watch</a></div>
+    </div>
+
+  </div>
+
+  <footer>Save to Home Screen for app-like access</footer>
+  <script>
+    const save = () => localStorage.setItem('gymProgress', JSON.stringify(state));
+    const load = () => JSON.parse(localStorage.getItem('gymProgress') || '{}');
+    let state = load();
+
+    document.querySelectorAll('.ex').forEach((ex, i) => {
+      const key = 'ex_' + i;
+      const data = state[key] || { done: false, weight: '' };
+
+      const box = document.createElement('input');
+      box.type = 'checkbox';
+      box.checked = data.done;
+      box.style.marginRight = '8px';
+
+      const weight = document.createElement('input');
+      weight.type = 'number';
+      weight.placeholder = 'kg';
+      weight.value = data.weight;
+      weight.style.width = '60px';
+      weight.style.marginLeft = '8px';
+
+      box.onchange = () => { data.done = box.checked; state[key] = data; save(); };
+      weight.oninput = () => { data.weight = weight.value; state[key] = data; save(); };
+
+      ex.prepend(box);
+      ex.appendChild(weight);
+    });
+  </script>
+</body>
+</html>
