@@ -4,209 +4,130 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Beginner Gym Plan</title>
-
   <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-      margin: 0;
-      background: #0f172a;
-      color: #e5e7eb;
-    }
-
-    header {
-      padding: 16px;
-      background: #020617;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; margin: 0; background: #0f172a; color: #e5e7eb; }
+    header { padding: 16px; background: #020617; position: sticky; top: 0; }
     h1 { font-size: 20px; margin: 0; }
     .meta { font-size: 13px; color: #94a3b8; }
-
     .container { padding: 12px; }
-
-    .day {
-      background: #020617;
-      border-radius: 14px;
-      padding: 14px;
-      margin-bottom: 14px;
-      box-shadow: 0 10px 20px rgba(0,0,0,.25);
-      overflow: hidden;
-    }
-
+    .day { background: #020617; border-radius: 14px; padding: 14px; margin-bottom: 14px; box-shadow: 0 10px 20px rgba(0,0,0,.25); }
     .day h2 { font-size: 18px; margin: 0 0 8px 0; }
-
-    .muscle-img {
-      width: 80px;
-      float: right;
-      margin-left: 10px;
-    }
-
     .ex { margin-bottom: 10px; }
     .ex b { display: block; }
-
+    .ex button { background:none; border:none; color:#38bdf8; font-size:14px; padding:0; cursor:pointer; }
     .tag { font-size: 12px; color: #cbd5f5; }
+    .muscle-img { width: 80px; height: auto; float: right; margin-left: 10px; }
+    footer { padding: 12px; text-align: center; font-size: 12px; color: #94a3b8; }
 
-    .watch {
-      background: none;
-      border: none;
-      color: #38bdf8;
-      font-size: 14px;
-      padding: 0;
-      cursor: pointer;
-    }
-
-    footer {
-      padding: 12px;
-      text-align: center;
-      font-size: 12px;
-      color: #94a3b8;
-    }
-
-    /* POPUP */
-    .modal {
-      display: none;
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,.85);
-      z-index: 999;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .modal-content {
-      background: #020617;
-      width: 90%;
-      max-width: 520px;
-      border-radius: 14px;
-      padding: 10px;
-    }
-
-    .modal iframe {
-      width: 100%;
-      height: 280px;
-      border-radius: 10px;
-      border: none;
-    }
-
-    .close {
-      text-align: right;
-      font-size: 14px;
-      color: #94a3b8;
-      cursor: pointer;
-      margin-bottom: 6px;
-    }
+    /* Popup */
+    .modal { display:none; position:fixed; inset:0; background:rgba(0,0,0,.8); z-index:1000; align-items:center; justify-content:center; }
+    .modal-content { background:#020617; width:90%; max-width:500px; border-radius:14px; padding:10px; }
+    .modal iframe { width:100%; height:280px; border:none; border-radius:10px; }
+    .close { text-align:right; font-size:14px; color:#94a3b8; cursor:pointer; }
   </style>
 </head>
-
 <body>
+  <header>
+    <h1>Beginner Gym Plan (4 Days)</h1>
+    <div class="meta">Rest 60–90s • Cardio optional after weights</div>
+  </header>
 
-<header>
-  <h1>Beginner Gym Plan (4 Days)</h1>
-  <div class="meta">Rest 60–90s • Cardio optional after weights</div>
-</header>
+  <div class="container">
 
-<div class="container">
+    <div class="day">
+      <h2>Day 1 – Chest + Triceps (Technogym)</h2>
+      <img src="day1-chest-triceps.png" class="muscle-img" alt="Chest + Triceps">
+      <div class="ex"><b>Technogym Chest Press</b><span class="tag">4x8–10 • Inhale back, exhale press</span><br><button data-video="$1" class="watch">Watch</button></div>
+      <div class="ex"><b>Technogym Incline Chest Press</b><span class="tag">3x10–12</span><br><button data-video="$1" class="watch">Watch</button></div>
+      <div class="ex"><b>Technogym Pec Deck</b><span class="tag">3x12–15</span><br><button data-video="$1" class="watch">Watch</button></div>
+      <div class="ex"><b>Technogym Cable Triceps Pushdown</b><span class="tag">3x10–12</span><br><button data-video="$1" class="watch">Watch</button></div>
+      <div class="ex"><b>Technogym Triceps Extension Machine</b><span class="tag">3x10–12</span><br><button data-video="$1" class="watch">Watch</button></div>
+    </div>
 
-<!-- DAY 1 -->
-<div class="day">
-  <h2>Day 1 – Chest + Triceps</h2>
-  <img src="day1-chest-triceps.png" class="muscle-img">
-  <div class="ex"><b>Bench Press</b><span class="tag">4x8–10</span><br><button class="watch" data-video="rT7DgCr-3pg">Watch</button></div>
-  <div class="ex"><b>Incline DB Press</b><span class="tag">3x10–12</span><br><button class="watch" data-video="8iPEnn-ltC8">Watch</button></div>
-  <div class="ex"><b>Pec Deck</b><span class="tag">3x12–15</span><br><button class="watch" data-video="taI4XduLpTk">Watch</button></div>
-  <div class="ex"><b>Rope Pushdown</b><span class="tag">3x10–12</span><br><button class="watch" data-video="2-LAMcpzODU">Watch</button></div>
-  <div class="ex"><b>Overhead Extension</b><span class="tag">3x10–12</span><br><button class="watch" data-video="YbX7Wd8jQ-Q">Watch</button></div>
-</div>
+    <div class="day">
+      <h2>Day 2 – Back + Biceps</h2>
+      <img src="A_series_of_four_workout_plan_sections_is_displaye.png" class="muscle-img" alt="Back + Biceps">
+      <div class="ex"><b>Lat Pulldown</b><span class="tag">4x8–10</span><br><button data-video="$1" class="watch">Watch</button></div>
+      <div class="ex"><b>Seated Cable Row</b><span class="tag">3x10–12</span><br><button data-video="$1" class="watch">Watch</button></div>
+      <div class="ex"><b>One-Arm DB Row</b><span class="tag">3x10/arm</span><br><button data-video="$1" class="watch">Watch</button></div>
+      <div class="ex"><b>EZ-Bar Curl</b><span class="tag">3x8–10</span><br><button data-video="$1" class="watch">Watch</button></div>
+      <div class="ex"><b>Hammer Curl</b><span class="tag">3x10–12</span><br><button data-video="$1" class="watch">Watch</button></div>
+    </div>
 
-<!-- DAY 2 -->
-<div class="day">
-  <h2>Day 2 – Back + Biceps</h2>
-  <img src="day2-back-biceps.png" class="muscle-img">
-  <div class="ex"><b>Lat Pulldown</b><span class="tag">4x8–10</span><br><button class="watch" data-video="CAwf7n6Luuc">Watch</button></div>
-  <div class="ex"><b>Seated Row</b><span class="tag">3x10–12</span><br><button class="watch" data-video="HJSVR_67OlM">Watch</button></div>
-  <div class="ex"><b>One-Arm DB Row</b><span class="tag">3x10</span><br><button class="watch" data-video="pYcpY20QaE8">Watch</button></div>
-  <div class="ex"><b>EZ Curl</b><span class="tag">3x8–10</span><br><button class="watch" data-video="kwG2ipFRgfo">Watch</button></div>
-  <div class="ex"><b>Hammer Curl</b><span class="tag">3x10–12</span><br><button class="watch" data-video="zC3nLlEvin4">Watch</button></div>
-</div>
+    <div class="day">
+      <h2>Day 3 – Legs + Core</h2>
+      <img src="A_series_of_four_workout_plan_sections_is_displaye.png" class="muscle-img" alt="Legs + Core">
+      <div class="ex"><b>Squat / Leg Press</b><span class="tag">4x8–10</span><br><a href="https://www.youtube.com/watch?v=ultWZbUMPL8" target="_blank">Squat</a> • <a href="https://www.youtube.com/watch?v=IZxyjW7MPJQ" target="_blank">Leg Press</a></div>
+      <div class="ex"><b>Romanian Deadlift</b><span class="tag">3x8–10</span><br><button data-video="$1" class="watch">Watch</button></div>
+      <div class="ex"><b>Walking Lunges</b><span class="tag">3x10/leg</span><br><button data-video="$1" class="watch">Watch</button></div>
+      <div class="ex"><b>Standing Calf Raises</b><span class="tag">4x12–15</span><br><button data-video="$1" class="watch">Watch</button></div>
+      <div class="ex"><b>Plank</b><span class="tag">3x30–45s</span><br><button data-video="$1" class="watch">Watch</button></div>
+    </div>
 
-<!-- DAY 3 -->
-<div class="day">
-  <h2>Day 3 – Legs + Core</h2>
-  <img src="day3-legs-core.png" class="muscle-img">
-  <div class="ex"><b>Squat</b><span class="tag">4x8–10</span><br><button class="watch" data-video="ultWZbUMPL8">Watch</button></div>
-  <div class="ex"><b>Romanian Deadlift</b><span class="tag">3x8–10</span><br><button class="watch" data-video="2SHsk9AzdjA">Watch</button></div>
-  <div class="ex"><b>Walking Lunges</b><span class="tag">3x10</span><br><button class="watch" data-video="wrwwXE_x-pQ">Watch</button></div>
-  <div class="ex"><b>Calf Raises</b><span class="tag">4x12–15</span><br><button class="watch" data-video="-M4-G8p8fmc">Watch</button></div>
-  <div class="ex"><b>Plank</b><span class="tag">30–45s</span><br><button class="watch" data-video="pSHjTRCQxIw">Watch</button></div>
-</div>
+    <div class="day">
+      <h2>Day 4 – Shoulders + Arms</h2>
+      <img src="A_series_of_four_workout_plan_sections_is_displaye.png" class="muscle-img" alt="Shoulders + Arms">
+      <div class="ex"><b>Shoulder Press</b><span class="tag">4x8–10</span><br><button data-video="$1" class="watch">Watch</button></div>
+      <div class="ex"><b>Lateral Raises</b><span class="tag">3x12–15</span><br><button data-video="$1" class="watch">Watch</button></div>
+      <div class="ex"><b>Rear Delt Fly</b><span class="tag">3x12–15</span><br><button data-video="$1" class="watch">Watch</button></div>
+      <div class="ex"><b>Cable/Dumbbell Curl</b><span class="tag">3x10–12</span><br><button data-video="$1" class="watch">Watch</button></div>
+      <div class="ex"><b>Rope Pushdown</b><span class="tag">3x10–12</span><br><button data-video="$1" class="watch">Watch</button></div>
+    </div>
 
-<!-- DAY 4 -->
-<div class="day">
-  <h2>Day 4 – Shoulders + Arms</h2>
-  <img src="day4-shoulders-arms.png" class="muscle-img">
-  <div class="ex"><b>Shoulder Press</b><span class="tag">4x8–10</span><br><button class="watch" data-video="qEwKCR5JCog">Watch</button></div>
-  <div class="ex"><b>Lateral Raise</b><span class="tag">3x12–15</span><br><button class="watch" data-video="kDqklk1ZESo">Watch</button></div>
-  <div class="ex"><b>Rear Delt Fly</b><span class="tag">3x12–15</span><br><button class="watch" data-video="EA7u4Q_8HQ0">Watch</button></div>
-  <div class="ex"><b>Cable Curl</b><span class="tag">3x10–12</span><br><button class="watch" data-video="AsAVbj7puKo">Watch</button></div>
-  <div class="ex"><b>Rope Pushdown</b><span class="tag">3x10–12</span><br><button class="watch" data-video="GCa5VMIw6R8">Watch</button></div>
-</div>
-
-</div>
-
-<footer>Save to Home Screen for app-like access</footer>
-
-<!-- VIDEO POPUP -->
-<div class="modal" id="modal">
-  <div class="modal-content">
-    <div class="close" onclick="closeVideo()">Close ✕</div>
-    <iframe id="frame" allowfullscreen></iframe>
   </div>
-</div>
 
-<script>
-  const modal = document.getElementById('modal');
-  const frame = document.getElementById('frame');
+  <footer>Save to Home Screen for app-like access</footer>
 
-  document.querySelectorAll('.watch').forEach(btn => {
-    btn.onclick = () => {
-      frame.src = `https://www.youtube.com/embed/${btn.dataset.video}`;
-      modal.style.display = 'flex';
-    };
-  });
+  <!-- Video Popup -->
+  <div class="modal" id="videoModal">
+    <div class="modal-content">
+      <div class="close" onclick="closeVideo()">Close ✕</div>
+      <iframe id="videoFrame" allowfullscreen></iframe>
+    </div>
+  </div>
 
-  function closeVideo() {
-    frame.src = '';
-    modal.style.display = 'none';
-  }
+  <script>
+    const modal = document.getElementById('videoModal');
+    const frame = document.getElementById('videoFrame');
 
-  const save = () => localStorage.setItem('gymProgress', JSON.stringify(state));
-  const load = () => JSON.parse(localStorage.getItem('gymProgress') || '{}');
-  let state = load();
+    document.querySelectorAll('.watch').forEach(btn => {
+      btn.onclick = () => {
+        frame.src = `https://www.youtube.com/embed/${btn.dataset.video}`;
+        modal.style.display = 'flex';
+      }
+    });
 
-  document.querySelectorAll('.ex').forEach((ex, i) => {
-    const key = 'ex_' + i;
-    const data = state[key] || { done: false, weight: '' };
+    function closeVideo(){
+      frame.src = '';
+      modal.style.display = 'none';
+    }
 
-    const box = document.createElement('input');
-    box.type = 'checkbox';
-    box.checked = data.done;
+    const save = () => localStorage.setItem('gymProgress', JSON.stringify(state));
+    const load = () => JSON.parse(localStorage.getItem('gymProgress') || '{}');
+    let state = load();
 
-    const weight = document.createElement('input');
-    weight.type = 'number';
-    weight.placeholder = 'kg';
-    weight.value = data.weight;
-    weight.style.width = '60px';
-    weight.style.marginLeft = '8px';
+    document.querySelectorAll('.ex').forEach((ex, i) => {
+      const key = 'ex_' + i;
+      const data = state[key] || { done: false, weight: '' };
 
-    box.onchange = () => { data.done = box.checked; state[key] = data; save(); };
-    weight.oninput = () => { data.weight = weight.value; state[key] = data; save(); };
+      const box = document.createElement('input');
+      box.type = 'checkbox';
+      box.checked = data.done;
+      box.style.marginRight = '8px';
 
-    ex.prepend(box);
-    ex.appendChild(weight);
-  });
-</script>
+      const weight = document.createElement('input');
+      weight.type = 'number';
+      weight.placeholder = 'kg';
+      weight.value = data.weight;
+      weight.style.width = '60px';
+      weight.style.marginLeft = '8px';
 
+      box.onchange = () => { data.done = box.checked; state[key] = data; save(); };
+      weight.oninput = () => { data.weight = weight.value; state[key] = data; save(); };
+
+      ex.prepend(box);
+      ex.appendChild(weight);
+    });
+  </script>
 </body>
 </html>
